@@ -1,4 +1,6 @@
-"use strict";
-exports.__esModule = true;
-var message = 'Hello, Typesrcipt';
-console.log(message);
+var message = 'Hello, World!';
+// create a new heading 1 element
+var heading = document.createElement('h1');
+heading.textContent = message;
+// add the heading the document
+document.body.appendChild(heading);
